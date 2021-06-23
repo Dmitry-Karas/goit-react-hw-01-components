@@ -1,18 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Container from "../Container/Container";
+import s from "./Statistics.module.css";
 
 const Statistics = ({ title, stats }) => (
-  <section className="statistics">
-    {title && <h2 className="title">{title}</h2>}
+  <section className={s.statistics}>
+    <Container>
+      {title && <h2 className={s.title}>{title}</h2>}
 
-    <ul className="stat-list">
-      {stats.map(({ id, label, percentage }) => (
-        <li className="item" key={id}>
-          <span className="label">{label}</span>
-          <span className="percentage">{percentage}</span>
-        </li>
-      ))}
-    </ul>
+      <ul className={s.statList}>
+        {stats.map(({ id, label, percentage }) => (
+          <li className={s.item} key={id}>
+            <span className={s.label}>{label}</span>
+            <span className={s.percentage}>{percentage}</span>
+          </li>
+        ))}
+      </ul>
+    </Container>
   </section>
 );
 

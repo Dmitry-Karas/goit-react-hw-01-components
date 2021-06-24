@@ -1,11 +1,7 @@
-import React from "react";
+import { randomColor } from "../../utils/colorRandomizer";
 import PropTypes from "prop-types";
 import Container from "../Container/Container";
 import s from "./Statistics.module.css";
-
-const randomColor = () => {
-  return `#${Math.random().toString(16).substr(-6)}`;
-};
 
 const Statistics = ({ title, stats }) => (
   <section className={s.statistics}>

@@ -1,24 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import FriendListItem from "./FriendListItem";
-import defaultAvatar from "../../images/default-avatar.svg";
+import Container from "../Container/Container";
+import s from "./FriendList.module.css";
 
 const FriendList = ({ friends }) => (
-  <ul className="friend-list">
-    {friends.map(({ avatar, name, isOnline, id }) => (
-      <FriendListItem
-        avatar={avatar}
-        name={name}
-        isOnline={isOnline}
-        key={id}
-      />
-    ))}
-  </ul>
+  <Container>
+    <ul className={s.friendList}>
+      {friends.map(({ avatar, name, isOnline, id }) => (
+        <FriendListItem
+          avatar={avatar}
+          name={name}
+          isOnline={isOnline}
+          key={id}
+        />
+      ))}
+    </ul>
+  </Container>
 );
-
-FriendList.defaultProps = {
-  avatar: defaultAvatar,
-};
 
 FriendList.protoTypes = {
   friends: PropTypes.arrayOf(

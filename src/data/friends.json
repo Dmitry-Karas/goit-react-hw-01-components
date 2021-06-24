@@ -1,32 +1,56 @@
 [
   {
-    "avatar": "https://www.flaticon.com/svg/static/icons/svg/763/763704.svg",
-    "name": "Mango",
+    "avatar": "https://avatars.githubusercontent.com/u/72698271?s=100&v=4",
+    "name": "Oleksandr Yakovenko",
     "isOnline": true,
     "id": 1812
   },
   {
-    "avatar": "https://www.flaticon.com/svg/static/icons/svg/1998/1998671.svg",
-    "name": "Kiwi",
+    "avatar": "https://avatars.githubusercontent.com/u/74431200?v=4",
+    "name": "Anastasia Aleksandrova",
     "isOnline": false,
     "id": 1137
   },
   {
-    "avatar": "https://www.flaticon.com/svg/static/icons/svg/1623/1623681.svg",
-    "name": "Ajax",
+    "avatar": "https://avatars.githubusercontent.com/u/73894374?v=4",
+    "name": "Olexandr Vasylchuk",
     "isOnline": true,
     "id": 1213
   },
   {
-    "avatar": "https://www.flaticon.com/svg/static/icons/svg/2977/2977285.svg",
-    "name": "Jay",
+    "avatar": "https://avatars.githubusercontent.com/u/73667823?v=4",
+    "name": "Olena Pavliuk",
     "isOnline": true,
     "id": 1714
   },
   {
-    "avatar": "https://www.flaticon.com/svg/static/icons/svg/1998/1998749.svg",
-    "name": "Poly",
+    "avatar": "https://avatars.githubusercontent.com/u/74115267?v=4",
+    "name": "Olga Bezdetko",
     "isOnline": false,
     "id": 1284
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/72879118?v=4",
+    "name": "Maryna Berezhanska",
+    "isOnline": false,
+    "id": 1285
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/67137938?v=4",
+    "name": "Vladimir Shyriaiev",
+    "isOnline": true,
+    "id": 1286
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/74345435?v=4",
+    "name": "Andrey Lesik",
+    "isOnline": false,
+    "id": 1287
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/72923832?v=4",
+    "name": "Olga Pobedynska",
+    "isOnline": true,
+    "id": 1288
   }
 ]

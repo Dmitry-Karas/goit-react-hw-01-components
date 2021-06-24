@@ -3,6 +3,10 @@ import PropTypes from "prop-types";
 import Container from "../Container/Container";
 import s from "./Statistics.module.css";
 
+const randomColor = () => {
+  return `#${Math.random().toString(16).substr(-6)}`;
+};
+
 const Statistics = ({ title, stats }) => (
   <section className={s.statistics}>
     <Container>
@@ -10,9 +14,13 @@ const Statistics = ({ title, stats }) => (
 
       <ul className={s.statList}>
         {stats.map(({ id, label, percentage }) => (
-          <li className={s.item} key={id}>
+          <li
+            className={s.item}
+            key={id}
+            style={{ backgroundColor: randomColor() }}
+          >
             <span className={s.label}>{label}</span>
-            <span className={s.percentage}>{percentage}</span>
+            <span className={s.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>

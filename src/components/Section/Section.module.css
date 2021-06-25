@@ -1,0 +1,24 @@
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0px rgb(0 0 0 / 50%);
+}
+
+.section:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 50px;
+  padding: 10px 0;
+  border-top: 2px solid gainsboro;
+  border-bottom: 2px solid gainsboro;
+
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: dimgrey;
+}
